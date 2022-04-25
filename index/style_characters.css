@@ -1,0 +1,117 @@
+* { /*BASELINE*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(58,76,48,255);
+}
+
+/*MAIN TEXT*/
+body { 
+    font-family: Garamond, serif;
+    text-decoration: #AEA072;
+}
+/* HEADINGS */
+h1 { /*LARGEST HEADING*/
+    text-align: center;
+    }
+        h2 { /*MIDDLE HEADING*/
+        text-align: center;
+        }
+            h3 { /*SMALLER HEADING*/
+            text-align: center;
+            }
+audio { /*https://www.w3schools.com/html/html5_audio.asp*/
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 200px;
+    height: 20px;
+    
+}
+img {
+    border-radius: 20px;
+    display: block;
+    
+}
+
+.flex-container { /*CONTAINER STYLE*/
+    height: 350px; 
+    display: flex;
+    background-color: rgba(58,76,48,255); 
+    justify-content: start; 
+    align-items: start; 
+}
+
+.item { /*STYLE OF EACH ITEM*/
+    display: flex;
+    height: 100px;
+    background: rgba(58,76,48,255);
+    color: #AEA072;
+    margin: 10px;
+    align-items: center; 
+}
+
+.logo { /*LOGO*/
+    display: flex;
+    height: 300px;
+    flex-basis: 300px;
+    padding: 10px;
+    justify-content: start;
+}
+
+.header { /*BANNER*/
+    display: flex;
+    height: 300px;
+    flex-basis: 800px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.flex-container2 { /*STYLE OF CONTAINER 2*/
+    height: max-content;
+    display: flex;
+    background-color: rgba(58,76,48,255); 
+    justify-content: start; 
+    align-items: start; 
+}
+
+.flex-container2 .item:nth-of-type(1) { /*NAVIGATION STYLE*/
+    display: flex;
+    height: 300px;
+    flex-basis: 300px;
+    margin: 10px;
+    list-style-type: none;
+    width: 300px;
+    background-color: rgba(58,76,48,255);
+      }
+      ul {
+        border: 2px solid #AEA072;
+        border-style:groove;
+      }
+        li a { /* NAVIGATION - TEXT */
+        display: block;
+        color: #AEA072;
+        padding: 8px 16px;
+        justify-content: center;
+        }
+            /* NAVIGATION - LINK HOVER */
+            li a:hover {
+            width: 300px;
+            background-color: #3a4932;
+            color: #e7cc74;
+            }
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap*/
+.flex-container2 .item:nth-of-type(2){ /*CHARACTERS*/
+        background-color: rgba(58,76,48,255);
+        display: flex;
+        height: 1000px;
+        flex-basis: 800px;
+        padding: 100px;
+        font-family: Garamond, serif;
+        text-decoration: #AEA072;
+        justify-content: left;
+        align-items: start;
+        flex-flow:column;
+    }
+/* CURSOR */
+/* Start https://www.cursors-4u.com */ *
+{cursor: url(https://cur.cursors-4u.net/sports/spo-1/spo27.ani), url(https://cur.cursors-4u.net/sports/spo-1/spo27.png), auto !important;} /* End https://www.cursors-4u.com */
