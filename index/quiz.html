@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>QuizRealm</title>
+<link rel="stylesheet" href="style_quiz.css">
+<script defer src="quiz.js"></script>
+</head>
+    <body>
+        <div class="flex-container">
+            <div class="logo">
+                <img src="QuizRealm.png"
+				width="300" 
+				height="300"/></div>
+            <div class="header">
+                <img src="Banner.png"
+                width="750" 
+                height="300"/></div>
+        </div>
+        <div class="flex-container2">
+            <div class="item">
+                <ul class="nav">
+                    <ul><h3>~~~ NAVIGATION ~~~</h3></ul>
+                    <li><h4><a href="index.html">Home</a></h4></li>
+                    <li><h4><a href="quiz.html">What Hobbit are you?</a></h4></li>
+                    <li><h4><a href="characters.html">Character Information</a></h4></li>
+                    <ul></ul>
+                    <ul></ul>
+                    <ul></ul>
+                    <ul></ul>
+                    <audio controls autoplay>
+                    <source src="lotrtheme.mp4" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                    </audio>
+                </ul>
+            </div>
+			<div class="item">
+                <img src="hobbits.jpg" width="300" height="300"/>
+				<div id="intro">
+                    <h1>Which Hobbit are you?</h1>
+                    <p>Please make sure to choose one answer for each question by clicking one of the circles, if not, results will be less accurate.</p>
+                    <p>Tied answers will go directly to a wildcare tie-breaker question! Have fun! :)</p>
+                    <br>
+                    <p><b><u>1. The Shire has events all year round. Which one are you going to?</b></u></p>
+                    <input type="radio" id="RadioQ1A" name="Q1" value="A">
+                    <label for="RadioQ1A">A - Action and Adventure Roleplay Festival</label><br>
+                    <input type="radio" id="RadioQ1B" name="Q1" value="B">
+                    <label for="RadioQ1B">B - Plant and Flower Gardening Festival</label><br>
+                    <input type="radio" id="RadioQ1C" name="Q1" value="C">
+                    <label for="RadioQ1C">C - Barman's Beer Festival</label><br>
+                    <input type="radio" id="RadioQ1D" name="Q1" value="D">
+                    <label for="RadioQ1D">D - Puff of Smoke Weed Festival</label><br>
+                    <br>
+                    <p><b><u>2. Time to redecorate your hobbit hole! What colour will you paint your front door?</b></u></p>
+                    <input type="radio" id="RadioQ2A" name="Q2" value="A">
+                    <label for="RadioQ2A">A - Red</label><br>
+                    <input type="radio" id="RadioQ2B" name="Q2" value="B">
+                    <label for="RadioQ2B">B - Green</label><br>
+                    <input type="radio" id="RadioQ2C" name="Q2" value="C">
+                    <label for="RadioQ2C">C - Yellow</label><br>
+                    <input type="radio" id="RadioQ2D" name="Q2" value="D">
+                    <label for="RadioQ2D">D - Blue</label><br>
+                    <br>
+                    <p><b><u>3. The Shire bully is bothering your friend. What do you do?</b></u></p>
+                    <input type="radio" id="RadioQ3A" name="Q3" value="A">
+                    <label for="RadioQ3A">A - Tell your friend to ignore the bully and remind them of what a great person they are!</label><br>
+                    <input type="radio" id="RadioQ3B" name="Q3" value="B">
+                    <label for="RadioQ3B">B - Challenge the bully. You always defend your friends</label><br>
+                    <input type="radio" id="RadioQ3C" name="Q3" value="C">
+                    <label for="RadioQ3C">C - Outsmart them by coming up with a cunning revenge plan</label><br>
+                    <input type="radio" id="RadioQ3D" name="Q3" value="D">
+                    <label for="RadioQ3D">D - Make a fool of the bully, They can't bother your friend if you're too busy laughing at them!</label><br>
+                    <br>
+                    <p><b><u>4. What scares you the most?</b></u></p>
+                    <input type="radio" id="RadioQ4A" name="Q4" value="A">
+                    <label for="RadioQ4A">A - Losing control</label><br>
+                    <input type="radio" id="RadioQ4B" name="Q4" value="B">
+                    <label for="RadioQ4B">B - Losing a friend</label><br>
+                    <input type="radio" id="RadioQ4C" name="Q4" value="C">
+                    <label for="RadioQ4C">C - Being left behind</label><br>
+                    <input type="radio" id="RadioQ4D" name="Q4" value="D">
+                    <label for="RadioQ4D">D - Looking stupid</label><br>
+                    <br>
+                    <p><b><u>5. A stranger is asking around the Shire about you, what do people say? You are...</b></u></p>
+                    <input type="radio" id="RadioQ5A" name="Q5" value="A">
+                    <label for="RadioQ5A">A - Brave, independent and quiet</label><br>
+                    <input type="radio" id="RadioQ5B" name="Q5" value="B">
+                    <label for="RadioQ5B">B - Loyal, strong and reliable</label><br>
+                    <input type="radio" id="RadioQ5C" name="Q5" value="C">
+                    <label for="RadioQ5C">C - Intelligent, resourceful and strong</label><br>
+                    <input type="radio" id="RadioQ5D" name="Q5" value="D">
+                    <label for="RadioQ5D">D - Silly, fun and caring</label><br>
+                    <br>
+                    <p><b><u>6. What is your most negative trait?</b></u></p>
+                    <input type="radio" id="RadioQ6A" name="Q6" value="A">
+                    <label for="RadioQ6A">A - Obsessive</label><br>
+                    <input type="radio" id="RadioQ6B" name="Q6" value="B">
+                    <label for="RadioQ6B">B - Nosy</label><br>
+                    <input type="radio" id="RadioQ6C" name="Q6" value="C">
+                    <label for="RadioQ6C">C - Devious</label><br>
+                    <input type="radio" id="RadioQ6D" name="Q6" value="D">
+                    <label for="RadioQ6D">D - Clumsy</label><br>
+                    <br>
+                    <p><b><u>7. There are no cars, buses or trains in Middle Earth! How are you going to travel?</b></u></p>
+                    <input type="radio" id="RadioQ7A" name="Q7" value="A">
+                    <label for="RadioQ7A">A - On foot</label><br>
+                    <input type="radio" id="RadioQ7B" name="Q7" value="B">
+                    <label for="RadioQ7B">B - By pony</label><br>
+                    <input type="radio" id="RadioQ7C" name="Q7" value="C">
+                    <label for="RadioQ7C">C - By boat</label><br>
+                    <input type="radio" id="RadioQ7D" name="Q7" value="D">
+                    <label for="RadioQ7D">D - Be carried</label><br>
+                </br>
+                <button class="button" id="btn">Results, please! </button>
+                </div>
+        </body>
+</html>
